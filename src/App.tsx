@@ -7,7 +7,7 @@ import Onboarding from "./pages/onboarding/page.tsx";
 import Dashboard from "./pages/dashboard/page.tsx";
 import Achievements from "./pages/achievements/page.tsx";
 import Profile from "./pages/profile/page.tsx";
-import AppLayout from "./components/layout/AppLayout.tsx";
+import AppLayout from "./components/layouts/AppLayout.tsx";
 import { useServiceWorker } from "@/hooks/use-service-worker.ts";
 
 function AppRoutes() {

@@ -4,7 +4,7 @@ import { Authenticated, Unauthenticated, AuthLoading } from "convex/react";
 import { Skeleton } from "@/components/ui/skeleton.tsx";
 import { SignInButton } from "@/components/ui/signin.tsx";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "@/hooks/use-auth.ts";
+import { useAuth } from "@/hooks/use-auth.js";
 import { useState } from "react";
 import { toast } from "sonner";
 import { motion, AnimatePresence } from "motion/react";

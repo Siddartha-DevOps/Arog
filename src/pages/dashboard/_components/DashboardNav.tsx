@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Leaf, LogOut, Settings, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
-import { useAuth } from "@/hooks/use-auth.ts";
+import { useAuth } from "@/hooks/use-auth.js";
 import { Button } from "@/components/ui/button.tsx";
 
 type Props = {

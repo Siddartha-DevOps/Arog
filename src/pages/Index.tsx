@@ -5,7 +5,7 @@ import { api } from "@/convex/_generated/api.js";
 import { Authenticated } from "convex/react";
 import Navbar from "./landing/_components/Navbar.tsx";
 import Hero from "./landing/_components/Hero.tsx";
-import Features from "./landing/_components/Features.tsx";
+import Features from "./landing/_components/Feature.tsx";
 import HowItWorks from "./landing/_components/HowItWorks.tsx";
 import NutritionShowcase from "./landing/_components/NutritionShowcase.tsx";
 import DietPreference from "./landing/_components/DietPreference.tsx";
